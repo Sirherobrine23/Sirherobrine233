@@ -9,5 +9,4 @@ Como também sempre na busca de novos recursos e aprendizagem.
 
 Boa parte do meu tempo dedico a fazer algo ou acabar me estressando por erros de códigos.
 
-
-
+Além de tentar ser um criador de conteúdo na nossa comunidade e procurar uma aparecia melhor para [meu site](https://sirherobrine23.org).
