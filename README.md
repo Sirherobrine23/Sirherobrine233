@@ -1,12 +1,9 @@
 # sirherobrine23
-Teste do novos perfis do github
 
-Programador de Shell Script, e tagista HTML, aprendendo C++ e Kotlin
+Criador de shell Script para nada mais, acabo fazendo pelo meu tempo de inatividae mesmo.
 
-Como parte, quero criar algo que facilite a instalação e copilação de programas.
+Tenho como objetivo criar algo que facilite o uso do dia a dia, portabilidade.
 
-Como também sempre na busca de novos recursos e aprendizagem.
+Como parte tenho o [Minecraft BDS Instaler](https://github.com/Sirherobrine23/Minecraft-Bedrock-auto-install), que facilita a instalação do servidor Minecraft BDS (Minecraft **B**e**d**rock **S**erver)
 
-Boa parte do meu tempo dedico a fazer algo ou acabar me estressando por erros de códigos.
-
-Além de tentar ser um criador de conteúdo na nossa comunidade e procurar uma aparecia melhor para [meu site](https://sirherobrine23.org).
+<a src="media/2020-07-10-18-05-15_Trim.gif" /> - <a src="media/2020-07-10-18-08-20.gif" />
