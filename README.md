@@ -8,4 +8,6 @@ Como parte tenho o [Minecraft BDS Instaler](https://github.com/Sirherobrine23/Mi
 
 Também tenho Scripts na qual fui aprendendo, além de testes de copilação com o Github Actions (Recomendo não fica publicando várias releases em cada arquivo que dá push), meu novo site e antigo são hospedado no GitHub pages, além de ter meu próprio servidor de arquivos para uso dos dois sites.
 
-<!-- <img src="https://github.com/Sirherobrine23/Sirherobrine23/raw/master/media/2020-07-10-18-05-15_Trim.gif" width="409" height="228" /> -->
+Sirherobrine23 Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=Sirherobrine23&include_all_commits=true" width="409" height="228" />
