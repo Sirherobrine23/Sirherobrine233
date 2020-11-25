@@ -1,13 +1,9 @@
-# sirherobrine23
+# A short summary
 
-Criador de shell Script para quase nada, mas acabo fazendo pelo meu tempo de inatividae mesmo (ou melhorias em outros "programas").
+I try to create scripts in which to help make tasks more automated, in addition to contributing in a non-significant way to projects.
 
-Tenho como objetivo criar algo que facilite o uso do dia a dia, portabilidade, e inter-conenaxão entre pessoas no nosso dia a dia.
+Now I have created Bds Maneger to manage minecraft bedrock servers in a popular language.
 
-Como parte tenho o [Minecraft BDS Instaler](https://github.com/Sirherobrine23/Minecraft-Bedrock-auto-install), que facilita a instalação do servidor Minecraft BDS (esse é o significado de 'BDS' Minecraft **B**e**d**rock **S**erver)
-
-Também tenho Scripts na qual fui aprendendo, além de testes de copilação com o Github Actions (Recomendo não fica publicando várias releases em cada arquivo que dá push), meu novo site e antigo são hospedado no GitHub pages, além de ter meu próprio servidor de arquivos para uso dos dois sites.
-
-Sirherobrine23 Stats
+Sirherobrine23 Stats:
 
 <img src="https://github-readme-stats.vercel.app/api?username=Sirherobrine23&include_all_commits=true" width="409" height="228" />
