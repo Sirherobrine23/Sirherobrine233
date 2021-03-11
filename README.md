@@ -14,6 +14,8 @@ Today I have a project (@bds-maneger) that I had to rewrite from the Shell Scrip
 
 * [Http Injector Server With Proxy + SSH + Wireguard¹](https://github.com/Sirherobrine23/http-injector_server-Docker)
 
+* [Visual Studio Code Docker Debugging and Build](https://github.com/Sirherobrine23/Vscode_DockerDebugBuild_Image)
+
 * [OpenWRT Github actions build image](https://github.com/Sirherobrine23/Actions-Build-Openwrt)
 
 * [Debian Repository with Github Pages](https://github.com/Sirherobrine23/apt-pages-repo-actions)
