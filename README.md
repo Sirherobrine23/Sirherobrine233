@@ -1,9 +1,21 @@
-# A short summary
+# A summary about me
 
-I try to create scripts in which to help make tasks more automated, in addition to contributing in a non-significant way to projects.
+I am a young Javascript programmer, with a large base in Linux and Docker.
 
-Now I have created Bds Maneger to manage minecraft bedrock servers in a popular language.
+I have in mind that I can turn that boring content into something that everyone uses, in addition to being an open source lover.
 
-Sirherobrine23 Stats:
+Today I have a project (@bds-maneger) that I had to rewrite from the Shell Script for Javascript and rethink how everything can work in any language with a little effort.
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sirherobrine23&include_all_commits=true" width="409" height="228" />
+# Project's
+
+* [The Bds Maneger](https://github.com/Bds-Maneger) (The bedrock and Java Maneger)
+
+* [Http with Nginx, Ssl, nodejs](https://github.com/Sirherobrine23/Docker-Http-Server)
+
+* [Http Injector Server With Proxy + SSH + Wireguard¹](https://github.com/Sirherobrine23/http-injector_server-Docker)
+
+* [OpenWRT Github actions build image](https://github.com/Sirherobrine23/Actions-Build-Openwrt)
+
+* [Debian Repository with Github Pages](https://github.com/Sirherobrine23/apt-pages-repo-actions)
+
+* And more ...
