@@ -8,6 +8,7 @@ cpu:
 gpu:
   type: VIA
   model: VIA Technologies, Inc. CN896/VN896/P4M900 [Chrome 9 HC]
+  resolution: 1280x800
   drivers:
     linux:
       version: 1:0.6.0-4
