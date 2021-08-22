@@ -1,0 +1,233 @@
+cpu:
+  type: Intel
+  model: T2130
+  frequency: 1.867GHz
+  cores: 2
+  threads: 1
+  sockets: 1
+gpu:
+  type: VIA
+  model: VIA Technologies, Inc. CN896/VN896/P4M900 [Chrome 9 HC]
+  drivers:
+    linux:
+      version: 1:0.6.0-4
+      command: apt install xserver-xorg-video-openchrome openchrome-tool
+    windows:
+      version: null
+      url: https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/m4zA8hQiwojQZLZid6o_H18vg70A588UozekJF6MElt1kxo_6BIlRrPjUUn9waPm/n/grwodtg32n4d/b/windows-drivers/o/Itautec%2FW7635-W7630%2FPlaca%20de%20V%C3%ADdeo%20-%20vers%C3%A3o%20oficial.zip
+  count: 1
+os:
+  - name: Windows XP
+    version: null
+    arch: x86
+  - name: Windows Vista
+    version: null
+    arch: x86
+  - name: Windows 7
+    version: 6.1
+    arch: x86
+  - name: Debian
+    version: 11
+    arch: x86
+ram:
+  total: 2G
+  free: 512M
+lspci: |
+  00:00.0 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Subsystem: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Flags: medium devsel
+    Memory at c0000000 (32-bit, prefetchable) [disabled] [size=128M]
+    Capabilities: [80] AGP version 3.5
+    Capabilities: [50] Power Management version 2
+    Kernel driver in use: agpgart-via
+
+  00:00.1 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Flags: bus master, medium devsel, latency 0
+
+  00:00.2 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Flags: bus master, medium devsel, latency 0
+
+  00:00.3 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Flags: bus master, medium devsel, latency 0
+
+  00:00.4 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Flags: bus master, medium devsel, latency 0
+
+  00:00.5 PIC: VIA Technologies, Inc. CN896/VN896/P4M900 I/O APIC Interrupt Controller (prog-if 20 [IO(X)-APIC])
+    Flags: bus master, fast devsel, latency 0
+
+  00:00.6 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Security Device
+    Flags: bus master, fast devsel, latency 0
+
+  00:00.7 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
+    Flags: bus master, medium devsel, latency 0
+
+  00:01.0 PCI bridge: VIA Technologies, Inc. VT8237/VX700 PCI Bridge (prog-if 00 [Normal decode])
+    Flags: bus master, 66MHz, medium devsel, latency 0
+    Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+    I/O behind bridge: [disabled]
+    Memory behind bridge: c8000000-c8ffffff [size=16M]
+    Prefetchable memory behind bridge: a0000000-bfffffff [size=512M]
+    Capabilities: [70] Power Management version 2
+
+  00:02.0 PCI bridge: VIA Technologies, Inc. CN896/VN896/P4M900 PCI to PCI Bridge Controller (rev 80) (prog-if 00 [Normal decode])
+    Flags: bus master, fast devsel, latency 0, IRQ 24
+    Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+    I/O behind bridge: 00001000-00001fff [size=4K]
+    Memory behind bridge: 80000000-801fffff [size=2M]
+    Prefetchable memory behind bridge: 0000000080200000-00000000803fffff [size=2M]
+    Capabilities: [40] Express Root Port (Slot+), MSI 00
+    Capabilities: [68] Power Management version 2
+    Capabilities: [70] MSI: Enable- Count=1/1 Maskable+ 64bit+
+    Capabilities: [88] HyperTransport: MSI Mapping Enable- Fixed+
+    Capabilities: [98] Subsystem: VIA Technologies, Inc. CN896/VN896/P4M900 PCI to PCI Bridge Controller
+    Capabilities: [100] Advanced Error Reporting
+    Capabilities: [140] Virtual Channel
+    Capabilities: [180] Root Complex Link
+    Kernel driver in use: pcieport
+
+  00:03.0 PCI bridge: VIA Technologies, Inc. CN896/VN896/P4M900 PCI to PCI Bridge Controller (rev 80) (prog-if 00 [Normal decode])
+    Flags: bus master, fast devsel, latency 0, IRQ 25
+    Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+    I/O behind bridge: 00007000-00007fff [size=4K]
+    Memory behind bridge: c9000000-c90fffff [size=1M]
+    Prefetchable memory behind bridge: 0000000080400000-00000000805fffff [size=2M]
+    Capabilities: [40] Express Root Port (Slot+), MSI 00
+    Capabilities: [68] Power Management version 2
+    Capabilities: [70] MSI: Enable- Count=1/1 Maskable+ 64bit+
+    Capabilities: [88] HyperTransport: MSI Mapping Enable- Fixed+
+    Capabilities: [98] Subsystem: VIA Technologies, Inc. CN896/VN896/P4M900 PCI to PCI Bridge Controller
+    Capabilities: [100] Advanced Error Reporting
+    Capabilities: [140] Virtual Channel
+    Capabilities: [180] Root Complex Link
+    Kernel driver in use: pcieport
+
+  00:0f.0 IDE interface: VIA Technologies, Inc. VT8237A SATA 2-Port Controller (rev 80) (prog-if 8f [PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering])
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT8237A SATA 2-Port Controller
+    Flags: bus master, medium devsel, latency 64, IRQ 21
+    I/O ports at 60b8 [size=8]
+    I/O ports at 60b0 [size=4]
+    I/O ports at 6008 [size=8]
+    I/O ports at 6004 [size=4]
+    I/O ports at 6010 [size=16]
+    I/O ports at 6400 [size=256]
+    Capabilities: [c0] Power Management version 2
+    Kernel driver in use: sata_via
+    Kernel modules: sata_via, ata_generic
+
+  00:0f.1 IDE interface: VIA Technologies, Inc. VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE (rev 07) (prog-if 8a [ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering])
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE
+    Flags: bus master, medium devsel, latency 64
+    Memory at 000001f0 (32-bit, non-prefetchable) [virtual] [size=8]
+    Memory at 000003f0 (type 3, non-prefetchable) [virtual]
+    Memory at 00000170 (32-bit, non-prefetchable) [virtual] [size=8]
+    Memory at 00000370 (type 3, non-prefetchable) [virtual]
+    I/O ports at 60a0 [virtual] [size=16]
+    Capabilities: [c0] Power Management version 2
+    Kernel driver in use: pata_via
+    Kernel modules: pata_via, ata_generic
+
+  00:10.0 USB controller: VIA Technologies, Inc. VT82xx/62xx UHCI USB 1.1 Controller (rev a0) (prog-if 00 [UHCI])
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT82xx/62xx UHCI USB 1.1 Controller
+    Flags: bus master, medium devsel, latency 64, IRQ 20
+    I/O ports at 6020 [size=32]
+    Capabilities: [80] Power Management version 2
+    Kernel driver in use: uhci_hcd
+    Kernel modules: uhci_hcd
+
+  00:10.1 USB controller: VIA Technologies, Inc. VT82xx/62xx UHCI USB 1.1 Controller (rev a0) (prog-if 00 [UHCI])
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT82xx/62xx UHCI USB 1.1 Controller
+    Flags: bus master, medium devsel, latency 64, IRQ 22
+    I/O ports at 6040 [size=32]
+    Capabilities: [80] Power Management version 2
+    Kernel driver in use: uhci_hcd
+    Kernel modules: uhci_hcd
+
+  00:10.2 USB controller: VIA Technologies, Inc. VT82xx/62xx UHCI USB 1.1 Controller (rev a0) (prog-if 00 [UHCI])
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT82xx/62xx UHCI USB 1.1 Controller
+    Flags: bus master, medium devsel, latency 64, IRQ 21
+    I/O ports at 6060 [size=32]
+    Capabilities: [80] Power Management version 2
+    Kernel driver in use: uhci_hcd
+    Kernel modules: uhci_hcd
+
+  00:10.3 USB controller: VIA Technologies, Inc. VT82xx/62xx UHCI USB 1.1 Controller (rev a0) (prog-if 00 [UHCI])
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT82xx/62xx UHCI USB 1.1 Controller
+    Flags: bus master, medium devsel, latency 64, IRQ 23
+    I/O ports at 6080 [size=32]
+    Capabilities: [80] Power Management version 2
+    Kernel driver in use: uhci_hcd
+    Kernel modules: uhci_hcd
+
+  00:10.4 USB controller: VIA Technologies, Inc. USB 2.0 (rev 86) (prog-if 20 [EHCI])
+    Subsystem: FIRST INTERNATIONAL Computer Inc USB 2.0
+    Flags: bus master, medium devsel, latency 64, IRQ 21
+    Memory at c9400000 (32-bit, non-prefetchable) [size=256]
+    Capabilities: [80] Power Management version 2
+    Kernel driver in use: ehci-pci
+    Kernel modules: ehci_pci
+
+  00:11.0 ISA bridge: VIA Technologies, Inc. VT8237A PCI to ISA Bridge
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT8237A PCI to ISA Bridge
+    Flags: medium devsel
+    Capabilities: [c0] Power Management version 2
+    Kernel modules: i2c_viapro
+
+  00:11.7 Host bridge: VIA Technologies, Inc. VT8237/8251 Ultra VLINK Controller
+    Subsystem: VIA Technologies, Inc. VT8237/8251 Ultra VLINK Controller
+    Flags: medium devsel
+    Capabilities: [58] HyperTransport: Interrupt Discovery and Configuration
+
+  00:12.0 Ethernet controller: VIA Technologies, Inc. VT6102/VT6103 [Rhine-II] (rev 7c)
+    Subsystem: Fujitsu Technology Solutions VT6102/VT6103 [Rhine-II]
+    Flags: bus master, medium devsel, latency 24, IRQ 23
+    I/O ports at 6800 [size=256]
+    Memory at c9400400 (32-bit, non-prefetchable) [size=256]
+    Capabilities: [40] Power Management version 2
+    Kernel driver in use: via-rhine
+    Kernel modules: via_rhine
+
+  00:13.0 PCI bridge: VIA Technologies, Inc. VT8237A Host Bridge (prog-if 00 [Normal decode])
+    Flags: bus master, fast devsel, latency 0
+    Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+    I/O behind bridge: [disabled]
+    Memory behind bridge: c9100000-c91fffff [size=1M]
+    Prefetchable memory behind bridge: [disabled]
+    Capabilities: [60] HyperTransport: MSI Mapping Enable- Fixed+
+    Capabilities: [70] Subsystem: VIA Technologies, Inc. VT8237A Host Bridge
+
+  00:13.1 PCI bridge: VIA Technologies, Inc. VT8237A PCI to PCI Bridge (prog-if 01 [Subtractive decode])
+    Flags: bus master, fast devsel, latency 0
+    Bus: primary=00, secondary=05, subordinate=05, sec-latency=0
+    I/O behind bridge: [disabled]
+    Memory behind bridge: 80600000-806fffff [size=1M]
+    Prefetchable memory behind bridge: [disabled]
+    Capabilities: [60] HyperTransport: MSI Mapping Enable- Fixed+
+    Capabilities: [70] Subsystem: VIA Technologies, Inc. VT8237A PCI to PCI Bridge
+
+  01:00.0 VGA compatible controller: VIA Technologies, Inc. CN896/VN896/P4M900 [Chrome 9 HC] (rev 01) (prog-if 00 [VGA controller])
+    Subsystem: FIRST INTERNATIONAL Computer Inc CN896/VN896/P4M900 [Chrome 9 HC]
+    Flags: bus master, 66MHz, medium devsel, latency 16, IRQ 9
+    Memory at a0000000 (32-bit, prefetchable) [size=512M]
+    Memory at c8000000 (32-bit, non-prefetchable) [size=16M]
+    Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]
+    Capabilities: [60] Power Management version 2
+    Capabilities: [70] AGP version 2.0
+
+  04:01.0 Audio device: VIA Technologies, Inc. VT8237A/VT8251 HDA Controller (rev 10)
+    Subsystem: FIRST INTERNATIONAL Computer Inc VT8237A/VT8251 HDA Controller
+    Flags: bus master, fast devsel, latency 0, IRQ 17
+    Memory at c9100000 (64-bit, non-prefetchable) [size=16K]
+    Capabilities: [50] Power Management version 2
+    Capabilities: [60] MSI: Enable- Count=1/1 Maskable- 64bit+
+    Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+    Kernel driver in use: snd_hda_intel
+    Kernel modules: snd_hda_intel
+
+  05:01.0 Ethernet controller: Qualcomm Atheros AR2413/AR2414 Wireless Network Adapter [AR5005G(S) 802.11bg] (rev 01)
+    Subsystem: AMBIT Microsystem Corp. AR2413/AR2414 Wireless Network Adapter [AR5005G(S) 802.11bg]
+    Flags: bus master, medium devsel, latency 168, IRQ 18
+    Memory at 80600000 (32-bit, non-prefetchable) [size=64K]
+    Capabilities: [44] Power Management version 2
+    Kernel driver in use: ath5k
+    Kernel modules: ath5k
