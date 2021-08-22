@@ -9,7 +9,7 @@ GPU:
   type: Intel
   model: Intel 4 Series Chipset
   count: 1
-  Chipset: Intel® Graphics Media Accelerator X4500™ integrado de 400Mhz, RAMDAC 350Mhz, e suporte a 24-bits
+  Chipset: Integrated 400Mhz Intel® Graphics Media Accelerator X4500™, 350Mhz RAMDAC, and 24-bit support
   Video Memory: up to 512MB with dynamic memory allocation (DVMT).
   Resolution: support minimum resolution of 1024x768 16M colors - 75Hz. Support for VGA, SVGA, XGA, SXGA, QXGA standards. Supported maximum resolution of 2048 x1536@75Hz (VGA) and 2048 x1536@60Hz (DVI-D)
   Compatibility: DirectX 10.0, Shader Model 2.0, OpenGL 1.4 supported. Windows Vista Aero, MPEG-2 Decoder, AVC/H.264
@@ -125,6 +125,8 @@ bios:
     - WfM 2.0
     - DMI 2.0
     - ACPI 1.0b 
+    - UEFI:
+      - Not all systems are supported.
 sata:
   count: 6
   type: SATA
