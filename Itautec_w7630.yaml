@@ -232,3 +232,5 @@ lspci: |
     Capabilities: [44] Power Management version 2
     Kernel driver in use: ath5k
     Kernel modules: ath5k
+forum:
+  - https://web.archive.org/web/20210831032343/https://www.clubedohardware.com.br/topic/1269859-upgrade-ram-e-cpu-itautec-w7635/
