@@ -1,31 +1,16 @@
-A Junior Programmer with experience managing a Github organization and its repositories.
+Creator and Maintainer of Bds Maneger Project. My goal is to deliver open software so that it can be used by anyone inside and outside my projects.
 
-I'm always bringing open source project for everyone to use and modify the way they want, besides making several packages for Nodejs and small scripts in Bash.
+Have several ideas, most of them I managed to make, and bring the audiences for everyone to use.
 
-## Everyday Tools, IDE and Systems:
+An example is the Bds Maneger Core in which I created a package that manages the servers for Minecraft in both the Java version and the Bedrock version.
 
-- Visual Studio Code insider
+## Develop softwares
 
+- Node
+- Visual studio Code Insider
 - Docker
 
-- NodeJs 16.x (Current)
+## Favorite Programming Language
 
-- Git, Github Desktop and Git Cola
-
-- Ubuntu 20, Debian 11
-
-- Windows 10 and Windows Server Core
-
-## Favorite clouds I recommend:
-
-- Microsoft Azure
-
-- Oracle Cloud Infrastructure
-
-## My favorite projects:
-
-* [The Bds Maneger Project](https://github.com/The-Bds-Maneger)
-
-* [Http Injector Server](https://github.com/Sirherobrine23/Http-Injector-Server)
-
-* [OpenWRT Github actions build image](https://github.com/Sirherobrine23/Actions-Build-Openwrt)
+- Javascript
+- Shell Script
