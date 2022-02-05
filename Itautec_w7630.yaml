@@ -1,38 +1,49 @@
 cpu:
-  type: Intel
-  model: T2130
-  frequency: 1.867GHz
-  cores: 2
-  threads: 1
-  sockets: 1
+  - type: Intel
+    model: T2130
+    frequency: 1.867GHz
+    cores: 2
+    threads: 1
+    sockets: 1
 gpu:
   type: VIA
   model: VIA Technologies, Inc. CN896/VN896/P4M900 [Chrome 9 HC]
   resolution: 1280x800
+  count: 1
   drivers:
-    linux:
+    - platform: linux
       version: 1:0.6.0-4
       command: apt install xserver-xorg-video-openchrome openchrome-tool
-    windows:
+    - platform: win32
       version: null
       url: https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/m4zA8hQiwojQZLZid6o_H18vg70A588UozekJF6MElt1kxo_6BIlRrPjUUn9waPm/n/grwodtg32n4d/b/windows-drivers/o/Itautec%2FW7635-W7630%2FPlaca%20de%20V%C3%ADdeo%20-%20vers%C3%A3o%20oficial.zip
-  count: 1
+
 os:
   - name: Windows XP
     version: null
     arch: x86
+    platform: win32
   - name: Windows Vista
     version: null
     arch: x86
+    platform: win32
   - name: Windows 7
     version: 6.1
     arch: x86
+    platform: win32
   - name: Debian
     version: 11
     arch: x86
+    platform: linux
+
 ram:
-  total: 2G
-  free: 512M
+  - total: 2G
+    free: 612M
+    platform: win32
+  - total: 4G
+    free: 1.5G
+    platform: win32
+
 lspci: |
   00:00.0 Host bridge: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
     Subsystem: VIA Technologies, Inc. CN896/VN896/P4M900 Host Bridge
