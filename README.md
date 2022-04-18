@@ -1,16 +1,27 @@
-Creator and Maintainer of Bds Maneger Project. My goal is to deliver open software so that it can be used by anyone inside and outside my projects.
+Hi my name is Matheus Sampaio Queiroga or simplify @Sirherobrine23. on 3 paster years, init leaning JavaScript to create backend in Node.Js, in the time this create `The Bds Manage` to maneger Minecraft servers to Bedrock and Java, and the least one year more or less, create `OFVp Project` to create sample VPN in Wireguard and Ssh Tunnel inside in docker images.
 
-Have several ideas, most of them I managed to make, and bring the audiences for everyone to use.
+## Favorite softwares
 
-An example is the Bds Maneger Core in which I created a package that manages the servers for Minecraft in both the Java version and the Bedrock version.
-
-## Develop softwares
-
-- Node
-- Visual studio Code Insider
-- Docker
+- NodeJS.
+- Visual studio Code (Insider).
+- Docker.
 
 ## Favorite Programming Language
 
-- Javascript
-- Shell Script
+- Javascript and Typescript.
+- Shell Script.
+
+### Database
+
+- MongoDB (with Mongoose).
+
+## Deployments
+
+- Docker image.
+- Debian Packages (.dev files).
+- Node Packages (NPM).
+
+## Leaning or dev hello world
+
+- Go (golang)
+- Kubernetes
