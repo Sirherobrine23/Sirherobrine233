@@ -18,7 +18,7 @@ Hi my name is Matheus Sampaio Queiroga or simplify @Sirherobrine23. on 3 paster 
 ## Deployments
 
 - Docker image.
-- Debian Packages (.dev files).
+- Debian Packages (.deb files).
 - Node Packages (NPM).
 
 ## Leaning or dev hello world
