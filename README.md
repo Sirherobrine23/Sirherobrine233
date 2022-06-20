@@ -10,4 +10,9 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sirherobrine23&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
+
 [![](https://visitcount.itsvg.in/api?id=Sirherobrine23&icon=1&color=1)](https://visitcount.itsvg.in)
+
+## Listening now on Spotify
+
+![https://spotify-github-profile.vercel.app/api/view.svg?uid=srherobrine20&redirect=true](https://spotify-github-profile.vercel.app/api/view.svg?uid=srherobrine20&cover_image=true&theme=compact)
