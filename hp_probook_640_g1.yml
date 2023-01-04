@@ -1,0 +1,77 @@
+CPU:
+  type: Intel
+  model: Core i5 4210M
+  frequency: 2.60GHz
+  sockets: 1
+  threads: 4
+  cores: 2
+
+networking:
+- driver: Intel
+  model: Intel Ethernet Connection I217-V
+
+- driver: Intel
+  model: Intel(R) Centrino(R) Advanced-N 6235
+
+- driver: "Sierra wireless (HP)"
+  model: HP lt4111 LTE/EV-DO/HSPA+ Mobile Broadband Module
+
+sound:
+  model: "IDT 92HD91BXX"
+
+io:
+  - count: 1
+    value: "Standard RJ45 Connections for 10/100/1000Mbps Network"
+
+  - count: 4
+    value: "USB (3.0)?/2.0/1.1 connections"
+
+  - count: 1
+    value: "VGA Connector"
+
+  - count: 1
+    value: "Display port"
+
+  - count: 1
+    value: "Combo audio jack"
+
+Additional Features:
+  Security:
+    - TPM 1.2 (Trusted Platform Module) integrated on the motherboard (8)
+
+os:
+  - name: Windows 8+
+    arch: x86_64
+
+  - name: Linux
+    arch: x86_64
+
+  - name: MacOS
+    version: 11
+    arch: x86_64
+    details: Kext to keyboard, trackpad and WIFI
+
+ram:
+  total_slots: 2
+  total: 16Gb
+  form-factor: SODIMM
+  type: DDR3
+  technology: SDRAM
+  speed: 1066/1333/1600
+  pins: 240
+
+mini-pci:
+  count: 3
+
+bios:
+  vendor: HP
+  caracteristics:
+    - UEFI: full support
+
+sata:
+  count: 1.5
+  type: SATA
+  version: 3
+  desc: >
+    HDD/SSD Sata 3 avaible
+    DVD-CD (cady for convert to SSD/HDD)
